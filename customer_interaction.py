@@ -6,9 +6,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 
 # Load dataset correctly
-#data = pd.read_csv(r"D:\ENTC\Customer_Interaction\CustomerInteractionData.csv", sep=",")
+data = pd.read_csv(r"D:\ENTC\Customer_Interaction\CustomerInteractionData.csv", sep=",")
 
-data = pd.read_csv("CustomerInteractionData.csv", sep=",")
 
 # Clean headers
 data.columns = data.columns.str.strip().str.replace("\ufeff", "")
