@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 
 # Load dataset correctly
-data = pd.read_csv(r"D:\ENTC\Customer_Interaction\CustomerInteractionData.csv", sep=",")
+data = pd.read_csv("CustomerInteractionData.csv")
 
 
 # Clean headers
